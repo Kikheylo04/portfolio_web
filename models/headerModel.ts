@@ -1,5 +1,5 @@
 export interface HearderModel {
-  id: number
+  readonly id: number
   title: string
   link: string
 }

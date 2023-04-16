@@ -1,0 +1,20 @@
+@mixin itemHeaderHomeMixin($color, $fontSize) {
+  color: $color;
+  font-size: $fontSize;
+  text-decoration: none;
+}
+
+.itemHeaderHome {
+  @include itemHeaderHomeMixin($primaryColor, $secondaryFonSize);
+  &:active {
+    color: #000;
+  }
+}
+
+.itemHeaderNoActiveHome {
+  @include itemHeaderHomeMixin($quaternaryColor, $secondaryFonSize);
+}
+
+.itemHeaderMainHome {
+  @include itemHeaderHomeMixin($primaryColor, $quaternaryFonSize);
+}

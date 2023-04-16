@@ -1,13 +1,11 @@
-import { HeaderService } from '../services/local/index'
+import { HeaderHome } from '@/containers/home/HeaderHome'
 
 export default function Home() {
-  const listHeaders = HeaderService.getHeaders()
   return (
     <div className="home">
-      {listHeaders.map((item) => {
-        return <p key={item.id}>{item.title}</p>
-      })}
-      <p>Hola</p>
+      <div>
+        <HeaderHome />
+      </div>
     </div>
   )
 }
