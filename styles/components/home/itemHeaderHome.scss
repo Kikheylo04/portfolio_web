@@ -1,20 +1,22 @@
-@mixin itemHeaderHomeMixin($color, $fontSize) {
-  color: $color;
+@mixin itemHeaderHomeMixin($isActive, $fontSize) {
   font-size: $fontSize;
   text-decoration: none;
-}
-
-.itemHeaderHome {
-  @include itemHeaderHomeMixin($primaryColor, $secondaryFonSize);
-  &:active {
-    color: #000;
+  margin: auto 24px;
+  @if $isActive {
+    color: $primaryColor;
+  } @else {
+    color: $quaternaryColor;
   }
 }
 
+.itemHeaderHome {
+  @include itemHeaderHomeMixin(true, $secondaryFonSize);
+}
+
 .itemHeaderNoActiveHome {
-  @include itemHeaderHomeMixin($quaternaryColor, $secondaryFonSize);
+  @include itemHeaderHomeMixin(false, $secondaryFonSize);
 }
 
 .itemHeaderMainHome {
-  @include itemHeaderHomeMixin($primaryColor, $quaternaryFonSize);
+  @include itemHeaderHomeMixin(true, $quaternaryFonSize);
 }

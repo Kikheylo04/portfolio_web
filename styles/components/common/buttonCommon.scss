@@ -1,0 +1,19 @@
+@mixin buttonCommonMixin($isActive) {
+  font-size: $primaryFonSize;
+  color: $quaternaryColor;
+  border-radius: $primaryBorderRadius;
+  padding: 12px 25px;
+  border: solid $primaryColor 2px;
+  @if $isActive {
+    background-color: $primaryColor;
+  } @else {
+    background-color: transparent;
+  }
+}
+.buttonCommon {
+  @include buttonCommonMixin(true);
+}
+
+.buttonNoActiveCommon {
+  @include buttonCommonMixin(false);
+}

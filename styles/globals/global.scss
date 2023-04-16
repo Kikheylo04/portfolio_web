@@ -1,4 +1,8 @@
 * {
   font-family: $fontFamily;
-  background-color: $secondaryColor;
+  margin: auto;
+}
+body {
+  max-width: 90rem;
+  background-color: $tertiaryColor;
 }
