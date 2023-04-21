@@ -1,2 +1,5 @@
 export * from './HeaderHome'
 export * from './PresentationHome'
+export * from './AboutMeHome'
+export * from './ProjectsHome'
+export * from './ContactHome'

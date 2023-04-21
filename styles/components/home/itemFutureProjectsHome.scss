@@ -1,0 +1,14 @@
+@mixin itemDevelopmentAreasHomeMixin($isActive, $fontSize) {
+  font-size: $fontSize;
+  background-color: $septonaryColor;
+  margin-right: 18px;
+  @if $isActive {
+    color: $primaryColor;
+  } @else {
+    color: $sextonaryColor;
+  }
+}
+
+.futureProject {
+  @include itemDevelopmentAreasHomeMixin(true, $tertiaryFonSize);
+}

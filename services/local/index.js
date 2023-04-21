@@ -1,2 +1,5 @@
 export * from './headerService'
 export * from './userService'
+export * from './developmentAreasService'
+export * from './currentsProjectsService'
+export * from './futureProjectsService'

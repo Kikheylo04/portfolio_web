@@ -1,5 +1,11 @@
 import { SpacingCommon } from '@/components/common'
-import { HeaderHome, PresentationHome } from '@/containers/home'
+import {
+  HeaderHome,
+  PresentationHome,
+  AboutMeHome,
+  ProjectsHome,
+  ContactHome,
+} from '@/containers/home'
 
 export default function Home() {
   return (
@@ -11,6 +17,17 @@ export default function Home() {
         <PresentationHome />
       </div>
       <SpacingCommon />
+      <div className="home__aboutMe">
+        <AboutMeHome />
+      </div>
+      <SpacingCommon />
+      <div className="home__projects">
+        <ProjectsHome />
+      </div>
+      <SpacingCommon />
+      <div className="home__contact">
+        <ContactHome />
+      </div>
     </div>
   )
 }
