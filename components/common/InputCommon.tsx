@@ -1,11 +1,27 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 
 type Props = {
   type: string
-  title: string
-  scssName: string
+  title?: string
+  name: string
+  value?: string
+  scssName?: string
 }
 
-export const InputCommon: FC<Props> = ({ title, scssName, type }) => {
-  return <input type={type} placeholder={title} className={scssName} />
+export const InputCommon: FC<Props> = ({
+  title,
+  scssName,
+  type,
+  name,
+  value,
+}) => {
+  return (
+    <input
+      type={type}
+      name={name}
+      placeholder={title}
+      value={value}
+      className={scssName}
+    />
+  )
 }

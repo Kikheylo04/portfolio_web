@@ -1,11 +1,11 @@
 import { TitleCommon } from '@/components/common'
 import { ItemDevelopmentAreasHome } from '@/components/home'
 import { DeveleopmentAreaService, UserService } from '@/services/local'
-import React from 'react'
 
 export const AboutMeHome = () => {
   const user = UserService.getUser()
   const developmentArea = DeveleopmentAreaService.getDevelopmentArea()
+
   return (
     <div className="aboutMeHome">
       <div className="aboutMeHome__first">

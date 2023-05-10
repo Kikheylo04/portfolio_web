@@ -11,12 +11,20 @@
     }
     &__subtitle {
       font-size: $quintonaryFonSize;
-      margin: 0 144px 26px 26px;
+      p:nth-child(1) {
+        margin: 0 144px 26px 26px;
+      }
     }
     &__text {
       color: $quaternaryColor;
       font-size: $secondaryFonSize;
       margin: 0 92px 16px 26px;
+      p:nth-child(2) {
+        margin: 0 92px 16px 26px;
+      }
+    }
+    &__icon {
+      margin: 0 0 0 30px;
     }
   }
 
@@ -30,6 +38,10 @@
     }
     input {
       margin: 0 70px 16px 0;
+      border: 0;
+    }
+    button {
+      padding: 16px 66px;
     }
   }
 }

@@ -1,7 +1,7 @@
-import { HeaderService } from '@/services/local/headerService'
-import { HearderModel } from '@/models'
 import { ItemHeaderHome } from '@/components/home'
-import React, { useState } from 'react'
+import { HearderModel } from '@/models'
+import { HeaderService } from '@/services/local/headerService'
+import { useState } from 'react'
 
 export const HeaderHome = () => {
   const [selectedItem, setSelectedItem] = useState(1)

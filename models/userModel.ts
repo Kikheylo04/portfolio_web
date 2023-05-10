@@ -7,7 +7,6 @@ export interface UserModel {
   photo: string
   email: string
   phone: string
-  linkCV: string
   linkFacebook: string
   linkInstagram: string
   linkLinkedin: string

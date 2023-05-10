@@ -4,27 +4,31 @@
     "image": "https://cdn.jim-nielsen.com/ios/512/weather-2021-12-07.png ",
     "title": "Wheater App",
     "text": "Este proyecto te ayuda a saber donde te encuentras y como está el clima.",
-    "link": "https://www.deepl.com/es/translator#es/en/repositorio"
+    "gitHub": "https://github.com/Kikheylo04/evaluation-2",
+    "viewLive": " https://proyect-evaluation-2.netlify.app/"
   },
   {
     "id": 2,
     "image": "https://b2685283.smushcdn.com/2685283/wp-content/uploads/2021/12/ePly-1.jpg?lossy=1&strip=1&webp=1",
     "title": "Register Users",
     "text": "Esta aplicación te ayuda a registrar usuarios para que no te olvides cualquier cosa.",
-    "link": "https://www.deepl.com/es/translator#es/en/repositorio"
+    "gitHub": "https://github.com/EnriqueChavez09/cuarto-entregable",
+    "viewLive": "https://academlo-usuarios.netlify.app/"
   },
   {
     "id": 3,
     "image": "https://imagenes.atresplayer.com/atp/clipping/cmsimages02/2022/10/28/64C79A5A-9DF4-457F-877F-91B15D9752FE//1280x720.jpg",
     "title": "Pokemon",
     "text": "Aplicación que con ello podras buscar tu pokemón favorito y  averiguar sus características.",
-    "link": "https://www.deepl.com/es/translator#es/en/repositorio"
+    "gitHub": "https://github.com/Kikheylo04/next-pokemon-static",
+    "viewLive": "https://next-pokemon-static-k16t.vercel.app/"
   },
   {
     "id": 4,
     "image": "https://www.ionos.es/digitalguide/fileadmin/_processed_/2/3/csm_e-commerce_458f51429b.webp",
     "title": "Ecommerce",
     "text": "Una aplicación con lo cual puedes hacer compras de productos electronicos",
-    "link": "https://www.deepl.com/es/translator#es/en/repositorio"
+    "gitHub": "https://github.com/EnriqueChavez09/eCommerce",
+    "viewLive": "https://e-commerce-cha.vercel.app/"
   }
 ]

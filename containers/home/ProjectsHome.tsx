@@ -1,10 +1,9 @@
 import { TitleCommon } from '@/components/common'
-import React from 'react'
 import {
   ItemCurrentsProjectsHome,
   ItemFutureProjectsHome,
 } from '@/components/home'
-import { FutureProjectService, CurrentProjectService } from '@/services/local'
+import { CurrentProjectService, FutureProjectService } from '@/services/local'
 
 export const ProjectsHome = () => {
   const currentProject = CurrentProjectService.getCurrentProject()
@@ -26,6 +25,8 @@ export const ProjectsHome = () => {
                   image={item.image}
                   title={item.title}
                   text={item.text}
+                  viewLive={item.viewLive}
+                  gitHub={item.gitHub}
                   scssName="currentProject"
                 />
               )
@@ -40,6 +41,8 @@ export const ProjectsHome = () => {
                   image={item.image}
                   title={item.title}
                   text={item.text}
+                  viewLive={item.viewLive}
+                  gitHub={item.gitHub}
                   scssName="futureProject"
                 />
               )

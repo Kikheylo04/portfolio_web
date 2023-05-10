@@ -9,6 +9,15 @@
   }
 }
 
+div::-webkit-scrollbar {
+  width: 15px;
+  height: 8px;
+}
+div::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: $quaternaryColor;
+}
+
 .currentProject {
   @include itemDevelopmentAreasHomeMixin(true, $tertiaryFonSize);
 }

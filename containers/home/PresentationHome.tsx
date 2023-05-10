@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { ButtonCommon } from '@/components/common'
 import { UserService } from '@/services/local'
-import React from 'react'
 
 export const PresentationHome = () => {
   const user = UserService.getUser()
@@ -15,7 +14,12 @@ export const PresentationHome = () => {
         </div>
         <div className="presentationHome__first__button">
           <div className="presentationHome__first__button__active">
-            <ButtonCommon title="Download CV" scssName="buttonCommon" />
+            <ButtonCommon
+              title="Download CV"
+              link="/kikheylo_chavez.pdf"
+              scssName="buttonCommon"
+              download="kikheylo_chavez.pdf"
+            />
           </div>
           <div className="presentationHome__first__button__noActive">
             <ButtonCommon title="Contact me" scssName="buttonNoActiveCommon" />

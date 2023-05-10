@@ -3,4 +3,6 @@ export interface FutureProjectsModel {
   image: string
   title: string
   text: string
+  viewLive: string
+  gitHub: string
 }
