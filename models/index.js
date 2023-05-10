@@ -1,2 +1,7 @@
+export * from './currentsProjectsModel'
+export * from './developmentAreasModel'
+export * from './footerModel'
+export * from './futureProjectsModel'
 export * from './headerModel'
+export * from './technologyModels'
 export * from './userModel'

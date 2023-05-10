@@ -1,0 +1,169 @@
+[
+  {
+    "id": 1,
+    "icon": "https://d29fhpw069ctt2.cloudfront.net/icon/image/120373/preview.svg",
+    "title": "UI & UX DESIGNING",
+    "link": "",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Figma"
+      },
+      {
+        "id": 2,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Sketch"
+      },
+      {
+        "id": 3,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Adobe"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "icon": "https://cdn-icons-png.flaticon.com/512/2620/2620735.png",
+    "title": "FRONTEND DEVELOPMENT",
+    "link": "",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "JavaScript"
+      },
+      {
+        "id": 2,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "TypeSript"
+      },
+      {
+        "id": 3,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "React JS"
+      },
+      {
+        "id": 4,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Next.js"
+      },
+      {
+        "id": 5,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Sass"
+      },
+      {
+        "id": 6,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "CSS"
+      },
+      {
+        "id": 7,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "HTML"
+      },
+      {
+        "id": 8,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Vercel"
+      },
+      {
+        "id": 9,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Netlify"
+      },
+      {
+        "id": 10,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "GitHub"
+      },
+      {
+        "id": 11,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Quicktype"
+      },
+      {
+        "id": 12,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Redux"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/256/external-backend-web-development-flaticons-lineal-color-flat-icons-2.png",
+    "title": "BACKEND DEVELOPMENT",
+    "link": "",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Node.js"
+      },
+      {
+        "id": 2,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Sequelize"
+      },
+      {
+        "id": 3,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "PostgreSQL"
+      },
+      {
+        "id": 4,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Postman"
+      },
+      {
+        "id": 5,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Swagger"
+      },
+      {
+        "id": 6,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Express"
+      },
+      {
+        "id": 7,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Vercel"
+      },
+      {
+        "id": 8,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Netlify"
+      },
+      {
+        "id": 9,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "GitHub"
+      },
+      {
+        "id": 10,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "TypeSript"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "icon": "https://cdn-icons-png.flaticon.com/512/7187/7187384.png",
+    "title": "Quality Assurance",
+    "link": "",
+    "technologies": [
+      {
+        "id": 1,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Cypress"
+      },
+      {
+        "id": 2,
+        "icon": "https://logodownload.org/wp-content/uploads/2022/12/figma-logo-0.png",
+        "name": "Jest"
+      }
+    ]
+  }
+]

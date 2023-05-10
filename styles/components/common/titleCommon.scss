@@ -1,0 +1,14 @@
+@mixin titleCommonMixin($isTitle) {
+  color: $primaryColor;
+  @if $isTitle {
+    font-size: $sextonaryFonSize;
+  } @else {
+    font-size: $quintonaryFonSize;
+  }
+}
+.titleCommon {
+  @include titleCommonMixin(true);
+}
+.subtitleCommon {
+  @include titleCommonMixin(false);
+}

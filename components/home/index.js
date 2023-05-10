@@ -1,2 +1,5 @@
-export * from './ItemCategoryHome'
+export * from './ItemCurrentsProjectsHome'
+export * from './ItemDevelopmentAreasHome'
+export * from './ItemFooterHome'
+export * from './ItemFutureProjectsHome'
 export * from './ItemHeaderHome'

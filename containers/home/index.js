@@ -1,2 +1,6 @@
+export * from './AboutMeHome'
+export * from './ContactHome'
+export * from './FooterHome'
 export * from './HeaderHome'
 export * from './PresentationHome'
+export * from './ProjectsHome'

@@ -2,8 +2,9 @@
   font-size: $primaryFonSize;
   color: $quaternaryColor;
   border-radius: $primaryBorderRadius;
-  padding: 12px 25px;
+  padding: 12px 26px;
   border: solid $primaryColor 2px;
+  cursor: pointer;
   @if $isActive {
     background-color: $primaryColor;
   } @else {

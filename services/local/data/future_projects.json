@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "image": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/26079ab060401d8a76039e985d63a3e9.jpe",
+    "title": "Dragon Ball",
+    "text": "Página web que con ello podras buscar tu Dragon Ball favorito y  averiguar sus características.",
+    "gitHub": "",
+    "viewLive": ""
+  },
+  {
+    "id": 2,
+    "image": "https://www.searchenginejournal.com/wp-content/uploads/2022/07/how-to-tiktok-live--62d5285247bd1-sej-760x400.webp",
+    "title": "CheLive",
+    "text": "Una página web para poder transmitir en vivo lo que desees con ciertas restricciones.",
+    "gitHub": "",
+    "viewLive": ""
+  },
+  {
+    "id": 3,
+    "image": "https://metrica.pe/blog/wp-content/uploads/2019/08/delivery-rider-696x414.jpg",
+    "title": "DeliFlash",
+    "text": "Página web que puedas pedir y recibir de forma inmediata en principales ciudades.",
+    "gitHub": "",
+    "viewLive": ""
+  },
+  {
+    "id": 4,
+    "image": "https://overflow.pe/wp-content/uploads/2018/12/comprar-y-vender-productos-online.jpg",
+    "title": "Buy-Sell",
+    "text": "Página web con lo cual puedes hacer compras y ventas de productos.",
+    "gitHub": "",
+    "viewLive": ""
+  }
+]

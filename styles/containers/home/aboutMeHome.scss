@@ -1,0 +1,48 @@
+.aboutMeHome {
+  color: $quaternaryColor;
+
+  &__first {
+    &__title {
+      margin: 0 0 16px 18px;
+    }
+    &__text {
+      &__one {
+        p {
+          font-size: $secondaryFonSize;
+          margin: 0 62px 0 26px;
+        }
+      }
+      &__two {
+        display: flex;
+        margin: 8px 32px 40px 20px;
+        p:nth-child(1) {
+          color: $primaryColor;
+          font-size: $septonaryFonSize;
+          margin-right: 22px;
+        }
+        p:nth-child(2) {
+          font-size: $tertiaryFonSize;
+        }
+      }
+    }
+  }
+  &__developmentArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 24px 26px;
+    padding-bottom: 24px;
+    overflow-x: scroll;
+    div {
+      margin-right: 18px;
+      img {
+        width: 42px;
+        height: 42px;
+        padding: 60px 190px 0 24px;
+      }
+      p {
+        padding: 20px 60px 92px 24px;
+      }
+    }
+  }
+}
