@@ -14,7 +14,7 @@ export const ButtonCommon: FC<Props> = ({
   download,
 }) => {
   return (
-    <a href={link} target="_blank" download={download}>
+    <a href={link} download={download}>
       <button className={scssName} onClick={runFunction}>
         {title}
       </button>

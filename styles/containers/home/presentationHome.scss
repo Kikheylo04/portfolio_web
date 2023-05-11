@@ -1,9 +1,15 @@
 .presentationHome {
   color: $quaternaryColor;
-  display: flex;
-  margin: auto 30px;
+  @include breakpoints(sm) {
+    display: block;
+    margin: auto;
+  }
+  @include breakpoints(xl) {
+    display: flex;
+    margin: 0 auto;
+  }
   &__first {
-    margin: auto 80px 0 80px;
+    margin: auto 40px 0;
     &__text {
       p:nth-child(1) {
         font-size: $quintonaryFonSize;
@@ -23,24 +29,50 @@
         margin: auto 0;
       }
       &__noActive {
-        margin: auto 40px;
+        @include breakpoints(sm) {
+          margin: auto 0 auto 10px;
+        }
+        @include breakpoints(lg) {
+          margin: auto 40px;
+        }
       }
     }
   }
   &__image {
     margin: auto 80px;
     position: relative;
-    height: 444px;
-    width: 444px;
-    div {
-      height: 486px;
-      width: 486px;
+    @include breakpoints(sm) {
+      top: 6px;
+    }
+    @include breakpoints(xl) {
+      top: 10px;
+    }
+    &__background {
       background-color: $primaryColor;
       border-radius: 50%;
       position: absolute;
       left: -20px;
-      top: 80px;
       z-index: -1;
+      @include breakpoints(sm) {
+        top: 40px;
+        height: 242px;
+        width: 242px;
+      }
+      @include breakpoints(xl) {
+        top: 80px;
+        width: 486px;
+        height: 486px;
+      }
+    }
+    &__face {
+      @include breakpoints(sm) {
+        width: 200px;
+        height: 200px;
+      }
+      @include breakpoints(xl) {
+        width: 444px;
+        height: 444px;
+      }
     }
   }
 }

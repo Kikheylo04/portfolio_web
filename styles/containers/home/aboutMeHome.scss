@@ -3,13 +3,23 @@
 
   &__first {
     &__title {
-      margin: 0 0 16px 18px;
+      @include breakpoints(sm) {
+        margin: auto;
+      }
+      @include breakpoints(lg) {
+        margin: 0 0 16px 18px;
+      }
     }
     &__text {
       &__one {
         p {
           font-size: $secondaryFonSize;
-          margin: 0 62px 0 26px;
+          @include breakpoints(sm) {
+            margin: auto 0;
+          }
+          @include breakpoints(lg) {
+            margin: 0 62px 0 26px;
+          }
         }
       }
       &__two {
@@ -30,9 +40,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 24px 26px;
     padding-bottom: 24px;
     overflow-x: scroll;
+    @include breakpoints(sm) {
+      margin: 0 auto;
+    }
     div {
       margin-right: 18px;
       img {

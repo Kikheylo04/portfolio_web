@@ -1,7 +1,7 @@
 @mixin itemHeaderHomeMixin($isActive, $fontSize) {
   font-size: $fontSize;
-  text-decoration: none;
   margin: auto 24px;
+  display: inline-flex;
   @if $isActive {
     color: $primaryColor;
   } @else {
@@ -11,12 +11,31 @@
 
 .itemHeaderHome {
   @include itemHeaderHomeMixin(true, $secondaryFonSize);
+  @include breakpoints(sm) {
+    font-size: 12px;
+  }
+  @include breakpoints(lg) {
+    font-size: $secondaryFonSize;
+  }
 }
 
 .itemHeaderNoActiveHome {
   @include itemHeaderHomeMixin(false, $secondaryFonSize);
+  @include breakpoints(sm) {
+    font-size: 12px;
+  }
+  @include breakpoints(lg) {
+    font-size: $secondaryFonSize;
+  }
 }
 
 .itemHeaderMainHome {
   @include itemHeaderHomeMixin(true, $quaternaryFonSize);
+  @include breakpoints(sm) {
+    font-size: 22px;
+    margin: auto;
+  }
+  @include breakpoints(lg) {
+    font-size: $quaternaryFonSize;
+  }
 }
