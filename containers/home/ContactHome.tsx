@@ -10,7 +10,7 @@ import { UserService } from '@/services/local'
 export const ContactHome = () => {
   const user = UserService.getUser()
   return (
-    <div className="contactHome">
+    <div className="contactHome" id="ContactMe">
       <div className="contactHome__first">
         <div className="contactHome__first__title">
           <TitleCommon title="Contact" scssName="titleCommon" />

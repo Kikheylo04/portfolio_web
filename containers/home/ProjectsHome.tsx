@@ -10,7 +10,7 @@ export const ProjectsHome = () => {
   const futureProject = FutureProjectService.getFutureProject()
 
   return (
-    <div className="projectsHome">
+    <div className="projectsHome" id="Projects">
       <div className="projectsHome__first">
         <div className="projectsHome__first__title">
           <TitleCommon title="Projects" scssName="titleCommon" />

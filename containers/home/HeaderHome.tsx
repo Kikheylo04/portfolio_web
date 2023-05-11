@@ -23,6 +23,7 @@ export const HeaderHome = () => {
             <ItemHeaderHome
               key={item.id}
               title={item.title}
+              href={item.link}
               scssName={
                 selectedItem === item.id
                   ? 'itemHeaderHome'

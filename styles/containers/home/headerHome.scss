@@ -1,11 +1,13 @@
 .headerHome {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
   height: 80px;
+  background-color: $secondaryColor;
   cursor: pointer;
   @include breakpoints(sm) {
     height: 150px;
+  }
+  @include breakpoints(lg) {
+    height: 80px;
   }
   &__title {
     text-align: center;

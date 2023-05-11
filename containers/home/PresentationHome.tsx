@@ -22,7 +22,11 @@ export const PresentationHome = () => {
             />
           </div>
           <div className="presentationHome__first__button__noActive">
-            <ButtonCommon title="Contact me" scssName="buttonNoActiveCommon" />
+            <ButtonCommon
+              title="Contact me"
+              link="#ContactMe"
+              scssName="buttonNoActiveCommon"
+            />
           </div>
         </div>
       </div>
