@@ -7,7 +7,7 @@ export const AboutMeHome = () => {
   const developmentArea = DeveleopmentAreaService.getDevelopmentArea()
 
   return (
-    <div className="aboutMeHome">
+    <div className="aboutMeHome" id="AboutMe">
       <div className="aboutMeHome__first">
         <div className="aboutMeHome__first__title">
           <TitleCommon title="About Me" scssName="titleCommon" />
