@@ -3,4 +3,11 @@
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  cursor: pointer;
+  @include breakpoints(sm) {
+    height: 150px;
+  }
+  &__title {
+    text-align: center;
+  }
 }

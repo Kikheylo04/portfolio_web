@@ -1,30 +1,52 @@
 .contactHome {
   color: $primaryColor;
-  display: flex;
-
+  @include breakpoints(sm) {
+    display: block;
+  }
+  @include breakpoints(xl) {
+    display: flex;
+  }
   &__first {
     margin: 0;
     &__title {
       color: $primaryColor;
       font-size: $sextonaryFonSize;
-      margin: 0 122px 10px 20px;
+      @include breakpoints(sm) {
+        margin: auto;
+      }
+      @include breakpoints(lg) {
+        margin: 0 122px 10px 20px;
+      }
     }
     &__subtitle {
       font-size: $quintonaryFonSize;
       p:nth-child(1) {
-        margin: 0 144px 26px 26px;
+        @include breakpoints(sm) {
+          margin: auto auto 26px;
+        }
+        @include breakpoints(lg) {
+          margin: 0 144px 26px 26px;
+        }
       }
     }
     &__text {
       color: $quaternaryColor;
       font-size: $secondaryFonSize;
-      margin: 0 92px 16px 26px;
-      p:nth-child(2) {
+      @include breakpoints(sm) {
+        margin: auto auto 16px;
+      }
+      @include breakpoints(lg) {
         margin: 0 92px 16px 26px;
       }
     }
     &__icon {
-      margin: 0 0 0 30px;
+      display: inline-flex;
+      @include breakpoints(sm) {
+        margin: auto;
+      }
+      @include breakpoints(lg) {
+        margin: 0 0 0 30px;
+      }
     }
   }
 
@@ -32,13 +54,30 @@
     position: relative;
     color: $quaternaryColor;
     font-size: $tertiaryFonSize;
-    margin: 70px 150px 0 110px;
+    @include breakpoints(sm) {
+      margin: auto;
+    }
+    @include breakpoints(lg) {
+      margin: 70px 150px 0 0px;
+    }
     p {
-      margin: 0 70px 24px 0;
+      font-weight: 500;
+      font-size: $tertiaryFonSize;
+      @include breakpoints(sm) {
+        margin: auto;
+      }
+      @include breakpoints(sm) {
+        margin: 0 70px 24px 0;
+      }
     }
     input {
-      margin: 0 70px 16px 0;
       border: 0;
+      @include breakpoints(sm) {
+        margin: 0 auto 16px;
+      }
+      @include breakpoints(lg) {
+        margin: 0 70px 16px 0;
+      }
     }
     button {
       padding: 16px 66px;

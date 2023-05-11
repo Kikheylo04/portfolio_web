@@ -27,8 +27,12 @@ export const PresentationHome = () => {
         </div>
       </div>
       <div className="presentationHome__image">
-        <div></div>
-        <img src={user.photo} alt="asdas" />
+        <div className="presentationHome__image__background"></div>
+        <img
+          src={user.photo}
+          alt="asdas"
+          className="presentationHome__image__face"
+        />
       </div>
     </div>
   )

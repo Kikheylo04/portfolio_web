@@ -50,6 +50,7 @@ export const ContactHome = () => {
       </div>
       <div className="contactHome__form">
         <form action="https://formsubmit.co/kikheylo@gmail.com" method="POST">
+          <p>Contact me, let’s make magic together</p>
           <InputCommon
             type="text"
             title="Name:"

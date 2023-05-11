@@ -1,9 +1,20 @@
 .footerHome {
   &__bar {
-    margin: 0 0 18px 26px;
     display: flex;
+    @include breakpoints(sm) {
+      margin: 0 -60px 18px;
+    }
+    @include breakpoints(lg) {
+      margin: 0 0 18px 26px;
+    }
   }
   &__icon {
-    margin: 0 0 0 32px;
+    display: inline-flex;
+    @include breakpoints(lg) {
+      margin: auto;
+    }
+    @include breakpoints(lg) {
+      margin: 0 0 0 32px;
+    }
   }
 }

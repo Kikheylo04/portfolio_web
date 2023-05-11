@@ -1,22 +1,31 @@
-@mixin inputCommonMixin($isShortText) {
+.shortText {
   font-size: $primaryFonSize;
   color: $quintonaryColor;
   border-radius: $primaryBorderRadius;
   margin-bottom: 16px;
   padding-left: 16px;
   background-color: $septonaryColor;
-  @if $isShortText {
-    height: 62px;
-    width: 472px;
-  } @else {
-    height: 98px;
+  height: 62px;
+  @include breakpoints(sm) {
+    width: 200px;
+  }
+  @include breakpoints(lg) {
     width: 472px;
   }
 }
-.shortText {
-  @include inputCommonMixin(true);
-}
 
 .message {
-  @include inputCommonMixin(false);
+  font-size: $primaryFonSize;
+  color: $quintonaryColor;
+  border-radius: $primaryBorderRadius;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  background-color: $septonaryColor;
+  height: 98px;
+  @include breakpoints(sm) {
+    width: 200px;
+  }
+  @include breakpoints(lg) {
+    width: 472px;
+  }
 }
